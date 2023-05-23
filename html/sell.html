@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../images/meza3.png">
+    <link rel="stylesheet" href="../css/sell.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Home Buyers Inc</title>
+</head>
+<body>
+    <!-- begining of the header section -->
+    <section id="realtor">
+        <nav>
+            <img src="..\images/meza3.png" alt="Logo" class="logo">
+            <ul>
+                <li>
+                <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="buy.html">Buy Your Home</a>
+                </li>
+                <li>
+                    <a href="sell.html">Advertise Your Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About Us</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header">
+            <h2 class="animated"> </h2>
+        </div>
+    </section>
+    <!-- ending of the header section -->
+    <section id="sell">
+      
+        <div class="heading"> 
+            <h2>Why post on home buyers?</h2>
+        </div>
+        <div class="hr">
+            <hr class="one">
+            <hr class="two">
+        </div>
+        <div class="cards">
+        <div class="card2"> <img src="../images/selling-man1.jpg" width="100%"> 
+           <h3> Deal On Time </h3>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, vitae quo quae corrupti placeat possimus. Deserunt incidunt sit hic error blanditiis cum voluptate voluptatem corporis necessitatibus quibusdam eligendi rerum earum, a, nihil unde aspernatur tempore omnis rem provident doloribus fuga iste, sequi similique? Incidunt asperiores eveniet cupiditate inventore distinctio ullam. </p> 
+        </div>
+        <div class="card2"><img src="../images/selling-man3.jpg" width="100%">
+           <h3> Good Reviews</h3>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, vitae quo quae corrupti placeat possimus. Deserunt incidunt sit hic error blanditiis cum voluptate voluptatem corporis necessitatibus quibusdam eligendi rerum earum, a, nihil unde aspernatur tempore omnis rem provident doloribus fuga iste, sequi similique? Incidunt asperiores eveniet cupiditate inventore distinctio ullam. </p> 
+        </div>
+        <div class="card2"><img src="../images/selling-man2.jpg" width="100%">
+            <h3>24/7 Support</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, vitae quo quae corrupti placeat possimus. Deserunt incidunt sit hic error blanditiis cum voluptate voluptatem corporis necessitatibus quibusdam eligendi rerum earum, a, nihil unde aspernatur tempore omnis rem provident doloribus fuga iste, sequi similique? Incidunt asperiores eveniet cupiditate inventore distinctio ullam. </p> 
+        </div>
+    </div>
+</section>
+<form class="form">
+    <div class="container">
+        <div class="heading"> 
+            <h2>Advertise Your House Now</h2>
+        </div>
+        <div class="row">
+            <div class="flex  my-3">
+                <input placeholder="The owner's name" required type="text" class="form-control">
+            </div>
+            <div class="flex  my-3">
+                <input placeholder="Phone number" required type="number" class="form-control">
+            </div>
+            <div class="flex  my-3">
+                <input placeholder="Address of the property" required type="text" class="form-control">
+            </div>
+            <div class="flex  my-3">
+                <input placeholder="E-mail" required type="email" class="form-control">
+            </div>
+           
+            <div class="flex  my-3">
+                <input placeholder="The mortgage amount"  type="number" class="form-control">
+            </div>
+            <div class="flex  my-3">
+                <input placeholder=" What’s the size of the House?" required type="text" class="form-control">
+            </div>
+            <div class="flex  my-3">
+                <input placeholder=" What would be the reason for selling your property?"  type="text" class="form-control">
+            </div>
+            <div class="flex  my-3">
+                <input placeholder="Any updates done to the property? What kind of upgrades were done?"  type="text" class="form-control">
+            </div>
+            
+            <div class="flex  my-3 text">
+                <h4> Any major or minor repairs that need to be done? like foundation, plumbing, electricity, HVAC? or any
+                    cosmetics?
+                    </h4>
+                <input type="radio" id="Yes" name="choice" value="Yes">
+                 <label for="yes">Yes</label>
+                 <input type="radio" id="no" name="choice" value="No">
+                 <label for="No">No</label>
+            </div>
+            <div class="flex  my-3">
+            <textarea placeholder="Tell Us About The House Features" required rows="4" class="form-control"></textarea>
+        </div>
+        <div class="flex  my-3 text ">
+            <h4>Do you happen to have any other properties you would like to sell ?</h4>
+            <input type="radio" id="Yes" name="choices" value="Yes">
+                 <label for="yes">Yes</label>
+                 <input type="radio" id="no" name="choices" value="No">
+                 <label for="No">No</label>
+        </div>
+        <div class="flex  my-3 text">
+            <form action="upload.php" method="post" enctype="multipart/form-data">
+                <h4>Upload images of the house:</h4>
+                <input type="file" id="actual-btn" hidden>
+                <label class="upload" for="actual-btn">Upload images</label>
+              </form>
+            </div>
+        </div>
+        <div>
+            <input type="submit" class="btn3"></input>
+        </div>
+    </div>
+</form>
+<footer>
+    <div class="footer">
+        <img src="../images/meza3.png" alt="" style="width: 250px;">
+        <div>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li><a href="buy.html">Buy Your Home</a></li>
+            <li><a href="sell.html">Advertise Your Home</a></li>
+            <li>Coronavirus (COVID-19) FAQs</li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li>Terms & Conditions</li>
+            <li>Terms of Use</li>
+            <li>Privacy Policy</li>
+        </ul>
+    </div>
+    </div>
+    <div class="socialMedia">
+        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy;Life-Saver 2022 All rights reserved</p> 
+    </div>
+</footer> 
+</body>
+</html>
